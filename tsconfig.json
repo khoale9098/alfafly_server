@@ -19,7 +19,14 @@
     "paths": {
       /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
       "*": ["*", "node_modules/*"],
-      "src": ["../src/*"]
+      "src": ["../src/*"],
+
+      // "models/*": ["src/models/*"],
+      // "settings/*": ["src/settings/*"],
+      // "utils/*": ["src/utils/*"],
+      // "routes/*": ["src/routes/*"],
+      // "interface/*": ["src/interface/*"],
+      // "services/*": ["src/services/*"]
     },
     "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
     /* Advanced Options */
